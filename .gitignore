@@ -12,3 +12,5 @@ out/
 ##CPP
 ###
 *.out
+
+.DS_Store
