@@ -1,0 +1,7 @@
+package Java1.JavaIntro;
+
+public class Q3 {
+    public static void main(String[] args) {
+
+    }
+}

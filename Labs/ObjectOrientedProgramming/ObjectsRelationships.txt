@@ -1,0 +1,19 @@
+Q1. 
+-Email address
+-Social Security number
+-Manufacturing code
+-Employee Identification Number
+
+Q2. 
+-Laptop/Monitor/Keyboard - IMEI number/manufacturing number
+-Airconditioners - Manufacturing number
+
+Q3.
+Association - Keyboard - sendInstructions to connected monitor. 
+Composition (in the Laptop) - CPU is the composite. 
+
+Q4. 
+Keyboard
+
+Q5. 
+Customer and Restaurant (menu item)
