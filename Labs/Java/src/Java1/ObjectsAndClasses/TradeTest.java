@@ -9,7 +9,7 @@ class TradeTest {
     @Test
     void tradePriceIsPositive() {
         Trade trade1 = new Trade("T1","TestTrade1", 3);
-        //assertNotEquals(-1.0, 1.0 );
-       // assertNotEquals("", trade1.setPrice(-1.0));
+        assertNotEquals(-1.0, 1.0 );
+        //assertEquals(1, trade1.setPrice(1.0));
     }
 }

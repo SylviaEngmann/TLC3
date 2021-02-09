@@ -1,6 +1,6 @@
 package Java1.ObjectsAndClasses;
 
-public class Trade {
+public abstract class Trade {
     private String ID;
     private String symbol;
     private int quantity;
@@ -8,15 +8,6 @@ public class Trade {
 
     public Trade(){}
 
-    @Override
-    public String toString() {
-        return "Trade{" +
-                "ID='" + ID + '\'' +
-                ", symbol='" + symbol + '\'' +
-                ", quantity=" + quantity +
-                ", price=" + price +
-                '}';
-    }
 
     public Trade(String ID, String symbol, int quantity) {
         this.ID = ID;
@@ -36,4 +27,18 @@ public class Trade {
     public double getTradeValue(){
         return quantity * price;
     }
+
+    public abstract Double calcDividend(){}
+
+    @Override
+    public String toString() {
+        return "Trade{" +
+                "ID='" + ID + '\'' +
+                ", symbol='" + symbol + '\'' +
+                ", quantity=" + quantity +
+                ", price=" + price +
+                '}';
+    }
 }
+
+
