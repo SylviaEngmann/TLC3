@@ -6,13 +6,23 @@ public abstract class Trade {
     private int quantity;
     private double price;
 
-    public Trade(){}
+    //public Trade(){}
 
+    public Trade(String ID, String symbol, int quantity, double price) {
+        this.ID = ID;
+        this.symbol = symbol;
+        this.quantity = quantity;
+        this.price = price;
+    }
 
     public Trade(String ID, String symbol, int quantity) {
         this.ID = ID;
         this.symbol = symbol;
         this.quantity = quantity;
+    }
+
+    public double getPrice() {
+        return price;
     }
 
     public void setPrice(double price) {
@@ -28,7 +38,7 @@ public abstract class Trade {
         return quantity * price;
     }
 
-    public abstract Double calcDividend(){}
+    public abstract Double calcDividend();
 
     @Override
     public String toString() {

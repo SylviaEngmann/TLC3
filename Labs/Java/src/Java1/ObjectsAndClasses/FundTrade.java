@@ -1,10 +1,10 @@
 package Java1.ObjectsAndClasses;
 
-public class Fund extends Trade{
+public class FundTrade extends Trade{
     private Double dividend;
     private double percentage;
 
-    public Fund(String ID, String symbol, int quantity, int price, double percentage)
+    public FundTrade(String ID, String symbol, int quantity, int price, double percentage)
     {
         super(ID, symbol, quantity, price);
         this.percentage = percentage;

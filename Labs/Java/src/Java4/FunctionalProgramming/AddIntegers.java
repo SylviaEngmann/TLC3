@@ -1,4 +1,4 @@
-//public class AddIntegers implements Function<Integer, Integer> {
+package Java4.FunctionalProgramming;//public class AddIntegers implements Function<Integer, Integer> {
 //    public Integer apply(Integer i, Integer j){
 //        @Override
 //        return i+j;
