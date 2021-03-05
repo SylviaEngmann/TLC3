@@ -1,0 +1,47 @@
+scala> def times2 (i: Int) = i * 2
+def times2(i: Int): Int
+
+scala> times2 (3)
+val res0: Int = 6
+
+scala> def upper (strings: String* ) = strings.map(_.toUpperCase())
+def upper(strings: String*): Seq[String]
+
+scala> upper("one", "two")
+val res1: Seq[String] = ArraySeq(ONE, TWO)
+
+scala> def sayHello() = println("Hello everyone")
+def sayHello(): Unit
+
+scala> sayHello()
+Hello everyone
+
+scala> val str1 = "1\t2\t3"
+val str1: String = 1	2	3
+
+scala> val str2 = """1\t2\t3 | 3"""
+val str2: String = 1\t2\t3 | 3
+
+scala> val order = "A glass of beer"
+val order: String = A glass of beer
+
+scala> order.matches(".* beer")
+val res0: Boolean = true
+
+scala> val order2 = "A glass of beer - I like Beer"
+val order2: String = A glass of beer - I like Beer
+
+scala> order2.replaceAll("[bB]eer", "coke")
+val res1: String = A glass of coke - I like coke
+
+scala> order2.replaceFirst("[bB]eer", "coke")
+val res2: String = A glass of coke - I like Beer
+
+scala> def abs(i: Int) = if (i >= 0) i else -i
+def abs(i: Int): Int
+
+scala> abs(2)
+val res3: Int = 2
+
+scala> abs(-1)
+val res4: Int = 1
