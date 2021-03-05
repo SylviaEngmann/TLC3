@@ -1,0 +1,3 @@
+<!ELEMENT file(type,permissions,
+inode,fileowner,group,symboliclink
+size,date,name) >

@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<expensesystem>
+    <expense>
+        <name></name>
+        <description></description>
+        <expensetype></expensetype>
+        <date day="" month="" year=""/>
+        <paymentmode></paymentmode>
+    <expense>
+</expensesystem>

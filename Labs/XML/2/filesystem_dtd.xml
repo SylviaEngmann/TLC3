@@ -1,0 +1,28 @@
+<?xml version='1.0' ?>
+<!DOCTYPE file [<!ELEMENT file(type,permissions,
+inode,fileowner,group,symboliclink
+size,date,name) >]>
+<filesystem>
+    <file>
+        <type>directory</type>
+        <permissions>776</permissions>
+        <inode>2</inode>
+        <fileowner>evad</fileowner>
+        <group>cc3591</group>
+        <symboliclink></symboliclink>
+        <size>8192</size>
+        <date day="29" month="Oct" year="2001"/>
+        <name>play</name>
+    </file>
+    <file>
+        <type>file</type>
+        <permissions>664</permissions>
+        <inode>1</inode>
+        <fileowner>evad</fileowner>
+        <group>cc3591</group>
+        <symboliclink></symboliclink>
+        <size>5539</size>
+        <date day="27" month="Jul" year="2000"/>
+        <name>resist</name>
+    </file>
+</filesystem>
