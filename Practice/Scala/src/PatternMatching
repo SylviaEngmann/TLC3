@@ -1,0 +1,18 @@
+scala> def whatami(a: Any) =
+     | a match {
+     |  case i: Int => "I am an Int"
+     |  case d: Double => "I am a Double"
+     |  case s: String => "I am a String"
+     |  case u: java.net.URL => "I am a URL: " + u
+     |  case _ => "I am something else"
+     | }
+def whatami(a: Any): String
+
+scala> whatami("30")
+val res0: String = I am a String
+
+scala> whatami(new java.net.URL("http://www.scala-lang.org"))
+val res1: String = I am a URL: http://www.scala-lang.org
+
+scala> whatami( 1 until 2)
+val res2: String = I am something else
